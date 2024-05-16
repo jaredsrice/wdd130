@@ -1,13 +1,14 @@
 
-nav {
+nav,footer {
     text-align: center;
     background-color: steelblue;
+    color: white;
     padding: 10px;
 }
 a {
     color: white;
     margin: 40px;
-}
+  }
 h1 {
     text-align: center;
     color: steelblue;
@@ -21,18 +22,17 @@ img {
 p {
     padding: 10px;
 }
-footer{
-    text-align: center;
-    background-color: steelblue;
-    color: white;
-}
-
 main p {
     width: 80%;
     margin: 50px auto;
     text-align: center;
     font-size: 1.5em;
     line-height: 1.5em;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
 }
 
 #active {
