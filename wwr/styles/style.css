@@ -1,16 +1,31 @@
+/* Resetting default styles */
+
 body {
     background-color: #035e7b;
+    font-family: "Copperplate Gothic Light";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
+/* Page structure */
 
 .content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+/* Navigation */
+
 nav a {
     text-align: center;
     color: #E9EDDE;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -18,43 +33,85 @@ nav a:hover {
     background-color: #035E7B;
 }
 
-#hero-msg h1, 
-#hero-msg h4, 
-.button-box, 
+/* Hero section */
+
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
 main section {
     text-align: center;
+    font-family: "Copperplate", "Copperplate Gothic Light", "fantasy";
 }
+
+.home-title {
+    font-size: 2em;
+}
+
+/* Background and Cards */
 
 #background {
     height: 725px;
     background-color: #E9EDDE;
 }
 
-.book, 
+.book,
 .join {
-    background-color: #E9EDDE ;
+    background-color: #E9EDDE;
     color: #000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover, 
+.card-img {
+    border: 10px solid #E9EDDE;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.book:hover,
 .join:hover {
     background-color: #035E7B;
-    color: #000
+    color: #000;
 }
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+/* Message Section */
 
 .msg {
     background-color: #877B66;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 
-.msg h2, 
+.msg h2,
 .msg p {
     color: #E9EDDE;
+    font-family: "Consolas", "monaco", "monospace";
 }
+
+.msg p {
+    font-size: .7em;
+    padding: 15px;
+}
+
+/* Footer */
 
 footer {
     background-color: #877B66;
     color: #E9EDDE;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -67,18 +124,176 @@ footer a:hover {
 }
 
 footer p {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 footer p a:hover {
     text-decoration: underline;
 }
 
-.home-title, 
+footer .social img {
+    padding-top: 15px;
+}
+
+/* Miscellaneous */
+
+.home-title,
 h4 {
+    color: #E9EDDE;
+    margin-top: 10px;
+}
+
+.logo,
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+#background {
+    margin-bottom: 100px;
+}
+
+
+/* body {
+    background-color: #035e7b;
+    font-family: "Copperplate Gothic Light" ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: #E9EDDE;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    color: #E9EDDE;
+    background-color: #035E7B;
+}
+
+#hero-msg h1, 
+#hero-msg h4, 
+.button-box, 
+main section {
+    text-align: center;
+    font-family: "Copperplate", "Copperplate Gothic Light", "fantasy";
+}
+
+.home-title {
+    font-size: 2em;
+}
+
+#background {
+    height: 725px;
+    background-color: #E9EDDE;
+}
+
+.book, 
+.join {
+    background-color: #E9EDDE ;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+
+.card-img {
+    border: 10px solid #E9EDDE;
+
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.book:hover, 
+.join:hover {
+    background-color: #035E7B;
+    color: #000
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0; 
+}  
+
+.msg {
+    background-color: #877B66;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
+
+}
+
+.msg h2, 
+.msg p {
+    color: #E9EDDE;
+    font-family: "Consolas", "monaco", "monospace";
+}
+
+.msg p{
+    font-size: .7em;
+    padding: 15px;
+}
+
+footer {
+    background-color: #877B66;
+    color: #E9EDDE;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer a {
+    color: #E9EDDE;
+    text-decoration: none;
+}
+
+footer a:hover {
     color: #E9EDDE;
 }
 
+footer p {
+    font-size: 1em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-title, 
+h4 {
+    color: #E9EDDE;
+    margin-top: 10px;
+
+}
 
 .logo, .icon { 
     width: 80px;
@@ -87,3 +302,17 @@ h4 {
 #hero-img {
     width: 100%;
 }
+
+#logo_link {
+    padding-top: 5px;
+}
+
+
+.icon {
+    padding-top: 10px;
+}
+
+#background {
+    margin-bottom: 100px;
+
+} */
