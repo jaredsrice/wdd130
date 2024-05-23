@@ -148,6 +148,11 @@ h4 {
     width: 80px;
 }
 
+.logo {
+    width: 80px;
+    border-radius: 50%;
+}
+
 #hero-img {
     width: 100%;
 }
