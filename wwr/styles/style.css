@@ -2,7 +2,7 @@
 
 body {
     background-color: #035e7b;
-    font-family: "Copperplate Gothic Light";
+    font-family: "Copperplate", "Copperplate Gothic Light", "fantasy";
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -133,6 +133,8 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;
+    padding-left: 8px; 
+    padding-right: 8px;
 }
 
 /* Miscellaneous */
