@@ -12,12 +12,13 @@ body {
 }
 
 /* NAV BAR */
+
 nav {
-  background-color: #1D3557;
-  padding: 10px 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around; /* Spacing between items */
+  align-items: center; /* Center items vertically */
+  background-color: #1D3557; /* Background color for the navigation bar */
+  padding: 10px 20px; /* Add padding to the navigation bar */
 }
 
 nav a {
@@ -31,13 +32,22 @@ nav a:hover {
   background-color: #457B9D;
 }
 
+/* Logo */
 .logo-container {
   display: inline-block;
+  text-decoration: none; /* Remove underline for the logo link */
+  color: #F1FAEE; /* Set text color for the logo link */
 }
 
 .logo-container img {
-  width: 120px;
+  width: 120px; /* Adjust logo size */
 }
+
+.logo-container:hover {
+  color: #F1FAEE; /* Maintain text color on hover */
+  background-color: transparent; /* Remove background color on hover */
+}
+
 
 /* MAIN */
 main {
