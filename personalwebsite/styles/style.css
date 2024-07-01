@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montaga&display=swap');
+
+/* GENERAL */
+body {
+  font-family: 'Montaga', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  background-color: #1D3557; 
+  color: #F1FAEE; 
+}
+
+/* NAV BAR */
+nav {
+  background-color: #1D3557;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #F1FAEE;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #457B9D;
+}
+
+.logo-container {
+  display: inline-block;
+}
+
+.logo-container img {
+  width: 120px;
+}
+
+/* MAIN */
+main {
+  background-color: #F1FAEE;
+  padding: 20px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  border-radius: 8px;
+}
+
+.column {
+  text-align: center;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.column h2 {
+  font-family: 'Bebas Neue', sans-serif; 
+  color: #000; 
+}
+
+.column p {
+  color: #000; 
+  background-color: #457B9D;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #1D3557;
+  color: #F1FAEE;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: #F1FAEE;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+footer a:hover {
+  color: #000; 
+}
+
+.social img {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
