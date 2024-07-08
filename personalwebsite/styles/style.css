@@ -83,6 +83,16 @@ main {
   border-radius: 4px;
 }
 
+.home-image-one {
+  width: 200px; 
+  height: auto;
+}
+
+.home-image-two {
+  width: 100px;
+  height: auto;
+}
+
 /* FOOTER */
 
 footer {
