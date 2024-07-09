@@ -150,7 +150,7 @@ footer a:hover {
 .fitness-item {
   display: grid; 
   grid-template-columns: 1fr 1fr; 
-  gap: 20px;
+  gap: 40px;
   align-items: center; 
   justify-items: center; 
   width: 100%;
@@ -166,11 +166,14 @@ footer a:hover {
 
 .fitness-item .fitness-text {
   width: 100%; 
-  margin-top: 20px; 
   text-align: center; 
+}
+
+.fitness-item .fitness-content {
+  margin-top: 10px; 
   font-size: 18px;
   color: #000000;
-  padding: 10px;
+  padding: 20px;
   background-color: #457B9D;
   border-radius: 4px; 
   margin-bottom: 20px; 
@@ -183,6 +186,7 @@ footer a:hover {
   text-align: center; 
 }
 
+/* Center the bottom row */
 .fitness-item:last-of-type {
   display: flex;
   flex-direction: column;
@@ -196,12 +200,14 @@ footer a:hover {
 }
 
 .fitness-item:nth-of-type(odd) .fitness-text {
-  order: 1; 
+  order: 2; 
 }
 
 .fitness-item:nth-of-type(even) .fitness-img {
   order: 1; 
 }
+
+
 
 
 
